@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct StatusListView: View {
+    @ObservedObject var statusManager = StatusManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Section {
+                List(statusManager.statusList) { status in
+                    StatusCardView(status: status)
+                }
+            } header: {
+                Text("recent updates")
+            }
+        }
+        
     }
 }
 

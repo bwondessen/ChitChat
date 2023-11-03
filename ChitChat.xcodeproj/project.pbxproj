@@ -7,43 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69136FC22AF469D800168BF7 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69136FC12AF469D800168BF7 /* StatusView.swift */; };
+		69136FC42AF46A0400168BF7 /* StatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69136FC32AF46A0400168BF7 /* StatusManager.swift */; };
+		69136FC62AF472F200168BF7 /* StatusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69136FC52AF472F200168BF7 /* StatusCardView.swift */; };
+		69136FC82AF4774B00168BF7 /* StatusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69136FC72AF4774B00168BF7 /* StatusListView.swift */; };
 		6913D1AA2AF4648B0076646A /* ChitChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913D1A92AF4648B0076646A /* ChitChatApp.swift */; };
 		6913D1AC2AF4648B0076646A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913D1AB2AF4648B0076646A /* ContentView.swift */; };
 		6913D1AE2AF4648C0076646A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6913D1AD2AF4648C0076646A /* Assets.xcassets */; };
 		6913D1B12AF4648C0076646A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6913D1B02AF4648C0076646A /* Preview Assets.xcassets */; };
-		6913D1BB2AF4648D0076646A /* ChitChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913D1BA2AF4648D0076646A /* ChitChatTests.swift */; };
-		6913D1C52AF4648D0076646A /* ChitChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913D1C42AF4648D0076646A /* ChitChatUITests.swift */; };
-		6913D1C72AF4648D0076646A /* ChitChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913D1C62AF4648D0076646A /* ChitChatUITestsLaunchTests.swift */; };
+		6913D1D42AF464FA0076646A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6913D1D32AF464FA0076646A /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6913D1B72AF4648D0076646A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6913D19E2AF4648B0076646A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6913D1A52AF4648B0076646A;
-			remoteInfo = ChitChat;
-		};
-		6913D1C12AF4648D0076646A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6913D19E2AF4648B0076646A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6913D1A52AF4648B0076646A;
-			remoteInfo = ChitChat;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		69136FC12AF469D800168BF7 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		69136FC32AF46A0400168BF7 /* StatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusManager.swift; sourceTree = "<group>"; };
+		69136FC52AF472F200168BF7 /* StatusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCardView.swift; sourceTree = "<group>"; };
+		69136FC72AF4774B00168BF7 /* StatusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusListView.swift; sourceTree = "<group>"; };
 		6913D1A62AF4648B0076646A /* ChitChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChitChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6913D1A92AF4648B0076646A /* ChitChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChatApp.swift; sourceTree = "<group>"; };
 		6913D1AB2AF4648B0076646A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6913D1AD2AF4648C0076646A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6913D1B02AF4648C0076646A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6913D1B62AF4648D0076646A /* ChitChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChitChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6913D1BA2AF4648D0076646A /* ChitChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChatTests.swift; sourceTree = "<group>"; };
-		6913D1C02AF4648D0076646A /* ChitChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChitChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6913D1C42AF4648D0076646A /* ChitChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChatUITests.swift; sourceTree = "<group>"; };
-		6913D1C62AF4648D0076646A /* ChitChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChitChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6913D1D32AF464FA0076646A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,29 +39,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6913D1B32AF4648D0076646A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6913D1BD2AF4648D0076646A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69136FBA2AF4691B00168BF7 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		69136FBB2AF4694400168BF7 /* Status */ = {
+			isa = PBXGroup;
+			children = (
+				69136FBF2AF469B900168BF7 /* ViewModel */,
+				69136FC02AF469C100168BF7 /* Components */,
+				69136FC12AF469D800168BF7 /* StatusView.swift */,
+			);
+			path = Status;
+			sourceTree = "<group>";
+		};
+		69136FBC2AF4694500168BF7 /* Communities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Communities;
+			sourceTree = "<group>";
+		};
+		69136FBD2AF4694600168BF7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		69136FBE2AF4694700168BF7 /* Calls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Calls;
+			sourceTree = "<group>";
+		};
+		69136FBF2AF469B900168BF7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				69136FC32AF46A0400168BF7 /* StatusManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		69136FC02AF469C100168BF7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				69136FC52AF472F200168BF7 /* StatusCardView.swift */,
+				69136FC72AF4774B00168BF7 /* StatusListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		6913D19D2AF4648B0076646A = {
 			isa = PBXGroup;
 			children = (
 				6913D1A82AF4648B0076646A /* ChitChat */,
-				6913D1B92AF4648D0076646A /* ChitChatTests */,
-				6913D1C32AF4648D0076646A /* ChitChatUITests */,
 				6913D1A72AF4648B0076646A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				6913D1A62AF4648B0076646A /* ChitChat.app */,
-				6913D1B62AF4648D0076646A /* ChitChatTests.xctest */,
-				6913D1C02AF4648D0076646A /* ChitChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +116,14 @@
 		6913D1A82AF4648B0076646A /* ChitChat */ = {
 			isa = PBXGroup;
 			children = (
+				69136FBB2AF4694400168BF7 /* Status */,
+				69136FBE2AF4694700168BF7 /* Calls */,
+				69136FBC2AF4694500168BF7 /* Communities */,
+				69136FBD2AF4694600168BF7 /* Settings */,
+				69136FBA2AF4691B00168BF7 /* Chats */,
 				6913D1A92AF4648B0076646A /* ChitChatApp.swift */,
 				6913D1AB2AF4648B0076646A /* ContentView.swift */,
+				6913D1D32AF464FA0076646A /* TabBar.swift */,
 				6913D1AD2AF4648C0076646A /* Assets.xcassets */,
 				6913D1AF2AF4648C0076646A /* Preview Content */,
 			);
@@ -108,23 +136,6 @@
 				6913D1B02AF4648C0076646A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6913D1B92AF4648D0076646A /* ChitChatTests */ = {
-			isa = PBXGroup;
-			children = (
-				6913D1BA2AF4648D0076646A /* ChitChatTests.swift */,
-			);
-			path = ChitChatTests;
-			sourceTree = "<group>";
-		};
-		6913D1C32AF4648D0076646A /* ChitChatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6913D1C42AF4648D0076646A /* ChitChatUITests.swift */,
-				6913D1C62AF4648D0076646A /* ChitChatUITestsLaunchTests.swift */,
-			);
-			path = ChitChatUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +158,6 @@
 			productReference = 6913D1A62AF4648B0076646A /* ChitChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6913D1B52AF4648D0076646A /* ChitChatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6913D1CD2AF4648D0076646A /* Build configuration list for PBXNativeTarget "ChitChatTests" */;
-			buildPhases = (
-				6913D1B22AF4648D0076646A /* Sources */,
-				6913D1B32AF4648D0076646A /* Frameworks */,
-				6913D1B42AF4648D0076646A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6913D1B82AF4648D0076646A /* PBXTargetDependency */,
-			);
-			name = ChitChatTests;
-			productName = ChitChatTests;
-			productReference = 6913D1B62AF4648D0076646A /* ChitChatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6913D1BF2AF4648D0076646A /* ChitChatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6913D1D02AF4648D0076646A /* Build configuration list for PBXNativeTarget "ChitChatUITests" */;
-			buildPhases = (
-				6913D1BC2AF4648D0076646A /* Sources */,
-				6913D1BD2AF4648D0076646A /* Frameworks */,
-				6913D1BE2AF4648D0076646A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6913D1C22AF4648D0076646A /* PBXTargetDependency */,
-			);
-			name = ChitChatUITests;
-			productName = ChitChatUITests;
-			productReference = 6913D1C02AF4648D0076646A /* ChitChatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +170,6 @@
 				TargetAttributes = {
 					6913D1A52AF4648B0076646A = {
 						CreatedOnToolsVersion = 15.0;
-					};
-					6913D1B52AF4648D0076646A = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 6913D1A52AF4648B0076646A;
-					};
-					6913D1BF2AF4648D0076646A = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 6913D1A52AF4648B0076646A;
 					};
 				};
 			};
@@ -220,8 +187,6 @@
 			projectRoot = "";
 			targets = (
 				6913D1A52AF4648B0076646A /* ChitChat */,
-				6913D1B52AF4648D0076646A /* ChitChatTests */,
-				6913D1BF2AF4648D0076646A /* ChitChatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,20 +201,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6913D1B42AF4648D0076646A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6913D1BE2AF4648D0076646A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,42 +208,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69136FC62AF472F200168BF7 /* StatusCardView.swift in Sources */,
+				6913D1D42AF464FA0076646A /* TabBar.swift in Sources */,
 				6913D1AC2AF4648B0076646A /* ContentView.swift in Sources */,
+				69136FC42AF46A0400168BF7 /* StatusManager.swift in Sources */,
+				69136FC82AF4774B00168BF7 /* StatusListView.swift in Sources */,
+				69136FC22AF469D800168BF7 /* StatusView.swift in Sources */,
 				6913D1AA2AF4648B0076646A /* ChitChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6913D1B22AF4648D0076646A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6913D1BB2AF4648D0076646A /* ChitChatTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6913D1BC2AF4648D0076646A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6913D1C72AF4648D0076646A /* ChitChatUITestsLaunchTests.swift in Sources */,
-				6913D1C52AF4648D0076646A /* ChitChatUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6913D1B82AF4648D0076646A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6913D1A52AF4648B0076646A /* ChitChat */;
-			targetProxy = 6913D1B72AF4648D0076646A /* PBXContainerItemProxy */;
-		};
-		6913D1C22AF4648D0076646A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6913D1A52AF4648B0076646A /* ChitChat */;
-			targetProxy = 6913D1C12AF4648D0076646A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6913D1C82AF4648D0076646A /* Debug */ = {
@@ -472,82 +398,6 @@
 			};
 			name = Release;
 		};
-		6913D1CE2AF4648D0076646A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PMP3AMXY6R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brukewondessen.ChitChatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChitChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChitChat";
-			};
-			name = Debug;
-		};
-		6913D1CF2AF4648D0076646A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PMP3AMXY6R;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brukewondessen.ChitChatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChitChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChitChat";
-			};
-			name = Release;
-		};
-		6913D1D12AF4648D0076646A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PMP3AMXY6R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brukewondessen.ChitChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChitChat;
-			};
-			name = Debug;
-		};
-		6913D1D22AF4648D0076646A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PMP3AMXY6R;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brukewondessen.ChitChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChitChat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,24 +415,6 @@
 			buildConfigurations = (
 				6913D1CB2AF4648D0076646A /* Debug */,
 				6913D1CC2AF4648D0076646A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6913D1CD2AF4648D0076646A /* Build configuration list for PBXNativeTarget "ChitChatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6913D1CE2AF4648D0076646A /* Debug */,
-				6913D1CF2AF4648D0076646A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6913D1D02AF4648D0076646A /* Build configuration list for PBXNativeTarget "ChitChatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6913D1D12AF4648D0076646A /* Debug */,
-				6913D1D22AF4648D0076646A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

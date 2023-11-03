@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct StatusView: View {
+    @ObservedObject var statusManager = StatusManager()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List(statusManager.statusList) { status in
+                Text(status.username)
+            }
+        }
     }
 }
 
